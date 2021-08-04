@@ -12,6 +12,7 @@ func TestList_getFirstElement(t *testing.T) {
 	}
 }
 
+
 func TestList_getLastElement(t *testing.T)  {
 	testList := List{}
 
