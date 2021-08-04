@@ -3,21 +3,21 @@ package main
 import "testing"
 
 func TestList_getFirstElement(t *testing.T) {
-	q := List{}
+	testList := List{}
 
-	if q.root != nil {
+	if testList.root != nil {
 		want := ""
-		got := q.root
+		got := testList.root
 		t.Errorf("Method getFirstElement for empty queue is not working correctly! Want %v got %v", want, got)
 	}
 }
 
-func TestList_getLastElemet(t *testing.T)  {
-	q := List{}
+func TestList_getLastElement(t *testing.T)  {
+	testList := List{}
 
-	if q.root != nil {
+	if testList.root != nil {
 		want := ""
-		got := q.end
+		got := testList.end
 		t.Errorf("Method getLastElement for empty queue is not working correctly! Want %v got %v", want, got)
 	}
 }
